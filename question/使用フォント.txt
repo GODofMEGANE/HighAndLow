@@ -1,2 +1,3 @@
-Old English Text MT
-NSimSun
+Old English Text MT (数字)
+NSimSun (英語)
+Lucida Calligraphy (A)
