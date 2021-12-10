@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+}
+
+#set1{
+    opacity: 1;
+    visibility: visible;
+}
+
+#set2{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set3{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set4{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set5{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set6{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set7{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set8{
+    opacity: 0;
+    visibility: collapse;
+}
+
