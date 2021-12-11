@@ -7,76 +7,109 @@
 </head>
 
 <body id="body">
+    <img id="logo" src="img/logo.png" width=400 height=200 />
     <div id="set1">
-        <img id="q1" src="question/Q1.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(1)" />
+            <img id="q1" class="cardsurface" src="question/Q1.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a1" name="answer1" placeholder="全角ひらがなor全角カタカナで回答" size="40">
-        <input type="button" id="b1" value="回答" onclick="onClick(1)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a1" class="answer" placeholder="全角ひらがなor全角カタカナで回答" size="40">
+        <input type="button" id="b1" class="button" value="回答" onclick="onClick(1)">
         <br>
-        <div id="r1"></div>
+        <div id="r1" class="response"></div>
         <br>
     </div>
     <div id="set2">
-        <img id="q2" src="question/Q2.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(2)" />
+            <img id="q1" class="cardsurface" src="question/Q2.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a2" name="answer2" placeholder="半角アルファベットで回答" size="40">
-        <input type="button" id="b2" value="回答" onclick="onClick(2)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a2" class="answer" placeholder="半角アルファベットで回答" size="40">
+        <input type="button" id="b2" class="button" value="回答" onclick="onClick(2)">
         <br>
-        <div id="r2"></div>
+        <div id="r2" class="response"></div>
         <br>
     </div>
     <div id="set3">
-        <img id="q3" src="question/Q3.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(3)" />
+            <img id="q1" class="cardsurface" src="question/Q3.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a3" name="answer3" placeholder="全角ひらがなor全角カタカナで回答" size="40">
-        <input type="button" id="b3" value="回答" onclick="onClick(3)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a3" class="answer" placeholder="全角ひらがなor全角カタカナで回答" size="40">
+        <input type="button" id="b3" class="button" value="回答" onclick="onClick(3)">
         <br>
-        <div id="r3"></div>
+        <div id="r3" class="response"></div>
         <br>
     </div>
     <div id="set4">
-        <img id="q4" src="question/Q4.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(4)" />
+            <img id="q1" class="cardsurface" src="question/Q4.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a4" name="answer4" placeholder="半角アルファベットで回答" size="40">
-        <input type="button" id="b4" value="回答" onclick="onClick(4)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a4" class="answer" placeholder="半角アルファベットで回答" size="40">
+        <input type="button" id="b4" class="button" value="回答" onclick="onClick(4)">
         <br>
-        <div id="r4"></div>
+        <div id="r4" class="response"></div>
         <br>
     </div>
     <div id="set5">
-        <img id="q5" src="question/Q5.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(5)" />
+            <img id="q1" class="cardsurface" src="question/Q5.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a5" name="answer5" placeholder="半角アルファベットで回答" size="40">
-        <input type="button" id="b5" value="回答" onclick="onClick(5)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a5" class="answer" placeholder="半角アルファベットで回答" size="40">
+        <input type="button" id="b5" class="button" value="回答" onclick="onClick(5)">
         <br>
-        <div id="r5"></div>
+        <div id="r5" class="response"></div>
         <br>
     </div>
     <div id="set6">
-        <img id="q6" src="question/Q6.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(6)" />
+            <img id="q1" class="cardsurface" src="question/Q6.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a6" name="answer6" placeholder="半角アルファベットで回答" size="40">
-        <input type="button" id="b6" value="回答" onclick="onClick(6)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a6" class="answer" placeholder="半角アルファベットで回答" size="40">
+        <input type="button" id="b6" class="button" value="回答" onclick="onClick(6)">
         <br>
-        <div id="r6"></div>
+        <div id="r6" class="response"></div>
         <br>
     </div>
     <div id="set7">
-        <img id="q7" src="question/Q7.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(7)" />
+            <img id="q1" class="cardsurface" src="question/Q7.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a7" name="answer7" placeholder="半角アルファベットで回答" size="40">
-        <input type="button" id="b7" value="回答" onclick="onClick(7)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a7" class="answer" placeholder="半角アルファベットで回答" size="40">
+        <input type="button" id="b7" class="button" value="回答" onclick="onClick(7)">
         <br>
-        <div id="r7"></div>
+        <div id="r7" class="response"></div>
         <br>
     </div>
     <div id="set8">
-        <img id="q8" src="question/Q8.png" width="400" height="600"></img>
+        <div class="question isback">
+            <img id="q1" class="cardback" src="img/card_back.png" width=400 height=600 onclick="turnCard(8)" />
+            <img id="q1" class="cardsurface" src="question/Q8.png" width=400 height=600 />
+        </div>
         <br>
-        <input type="text" id="a8" name="answer8" placeholder="全角ひらがなor全角カタカナで回答" size="40">
-        <input type="button" id="b8" value="回答" onclick="onClick(8)">
+        <img class="answer-char" src="img/A.png" width=30 height=30/>
+        <input type="text" id="a8" class="answer" placeholder="半角アルファベットで回答" size="40">
+        <input type="button" id="b8" class="button" value="回答" onclick="onClick(8)">
         <br>
-        <div id="r8"></div>
+        <div id="r8" class="response"></div>
         <br>
     </div>
 </body>

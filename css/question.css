@@ -49,3 +49,25 @@ body{
     visibility: collapse;
 }
 
+.answer-char{
+    position: relative;
+    top: 500;
+}
+
+.cardback{
+    position: absolute;
+    transform: rotateY(0deg);
+}
+
+.cardsurface {
+    transform: rotateY(90deg);
+}
+
+.surface .cardback {
+    transform:rotateY(90deg);
+    transition: opacity 50ms 200ms, transform 300ms;
+}
+.surface .cardsurface {
+    transform:rotateY(0deg);
+    transition: opacity 100ms 150ms, transform 300ms 150ms;
+}
