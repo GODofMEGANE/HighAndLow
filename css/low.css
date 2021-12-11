@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+    background-image: url(../img/bg_ex.jpg);
+}
+
+#set1{
+    opacity: 1;
+    visibility: visible;
+}
+
+#set2{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set3{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set4{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set5{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set6{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set7{
+    opacity: 0;
+    visibility: collapse;
+}
+
+#set8{
+    opacity: 0;
+    visibility: collapse;
+}
+
+.answer-char{
+    position: relative;
+    top: 500;
+}
+
+.cardback{
+    position: absolute;
+    transform: rotateY(0deg);
+}
+
+.cardsurface {
+    transform: rotateY(90deg);
+}
+
+.surface .cardback {
+    transform:rotateY(90deg);
+    transition: opacity 50ms 200ms, transform 300ms;
+}
+.surface .cardsurface {
+    transform:rotateY(0deg);
+    transition: opacity 100ms 150ms, transform 300ms 150ms;
+}
