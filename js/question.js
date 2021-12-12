@@ -47,11 +47,16 @@ async function onClick(question) {
         if(nextQuestion.style.visibility != 'visible'){
             nextQuestion.style.visibility = 'visible';
             nextQuestion.scrollIntoView({behavior: "smooth"});
-            nextQuestion.getElementsByClassName('question')[0].src = 'img/card_back.png';
             nextQuestion.animate([{opacity: '0'}, {opacity: '1'}], {duration: 1000, fill: "both"});
         }
     }
     else{
-        thisQuestion.getElementsByClassName('response')[0].textContent = "不正解";
+        if(question == 8 && await sha256(kanaToHira(thisQuestion.getElementsByClassName('answer')[0].value.toLowerCase())) == "6c1ff09db3a73dc4a854f695d20d174a848d55f2d743bab2ee1f8fc75be454f3"){
+            window.location.href = document.getElementById('a8').value.toLowerCase()+'.html';
+            thisQuestion.getElementsByClassName('response')[0].textContent = "...";
+        }
+        else{
+            thisQuestion.getElementsByClassName('response')[0].textContent = "不正解";
+        }
     }
 }

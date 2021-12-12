@@ -71,3 +71,22 @@ body{
     transform:rotateY(0deg);
     transition: opacity 100ms 150ms, transform 300ms 150ms;
 }
+
+.logo_fadein{
+	background: #222;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+.logo_fadein p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 2000px;
+}
